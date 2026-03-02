@@ -1,0 +1,169 @@
+body {
+    background-color: #CA8E8E;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    margin: 20px;
+}
+h1 {
+    color: #F6E5E5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 1.7;
+}
+p {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 1.2;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+ul {
+    line-height: 1.3;
+}
+.daftar-produk {
+    display:  grid;
+    grid-template-columns: repeat(auto-fit,
+ minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.produk {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.produk img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.produk h2 {
+    font-size: 20px;
+    color: #2c3e50;
+}
+.produk h3 {
+    font-size: 16px;
+    color: #2c3e50;
+}
+.harga {
+    font-weight: bold;
+    color: #27ae60;
+}
+.deskripsi {
+    font-size: 14px;
+    color: #555;
+}
+.artikel {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fdfdfd;
+    font-family: 'Georgia', serif;
+    line-height: 1.8;
+}
+.artikel .penulis {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+}
+.artikel .sampul {
+    width: 180px;
+    float: right;
+    margin: 0 0 20px 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.artikel blockquote {
+    font-style: italic;
+    padding-left: 20px;
+    margin: 20px 0;
+    border-left: 4px solid #999;
+    color: #444;
+    background-color: #f9f9f9;
+}
+.artikel img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.btn-kembali {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 16px;
+    background-color: rgb(166, 50, 87);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.btn-kembali:hover {
+    background-color: #de6189;
+}
+.Formulir {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+form button {
+    background-color: rgb(166, 50, 87);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #de6189;
+}
+nav {
+    background-color: #F6E5E5;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+nav a {
+    color: #CA8E8E;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: #f3c94a;
+    background-color: #CA8E8E(255,255,255,0.1);
+    border-radius: 4px;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
