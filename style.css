@@ -14,7 +14,11 @@ p {
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    line-height: 1.2;
+    line-height: 1.2;   
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 4px; 
 }
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
@@ -166,4 +170,5 @@ header img {
   width: 100%;
   height: auto;
   display: block;
+
 }
